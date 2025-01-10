@@ -8,7 +8,7 @@ from datetime import date
 def main():
     st.title("Climate Data Dashboard")
 
-    db = OceanDatabase(type="local")
+    db = OceanDatabase(type="prod")
 
     # Date range selector
     start_year = 1854
