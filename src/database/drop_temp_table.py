@@ -6,6 +6,4 @@ db = OceanDatabase(
     password="ibai"
 )
 
-with db.connect() as conn:
-    with conn.cursor() as cur:
-        cur.execute("DROP TABLE IF EXISTS ocean_temperatures")
+db.drop_table()
