@@ -21,7 +21,7 @@ class OceanTempCollector:
                 df = pd.DataFrame(df.values[df.values != -9999]) # -9999 is the missing value code
                 df = df.dropna()
                 ocean_temp_dict[year] = df[0].mean()
-                print("ocean_temp_dict", ocean_temp_dict)
+                print("year", year, "mean", ocean_temp_dict[year])
             except Exception as e:
                 print(f"Error processing year {year}: {e}")
         return ocean_temp_dict
