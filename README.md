@@ -11,7 +11,7 @@ A Streamlit dashboard showing historical ocean temperature data.
 
 ## Design schema
 
-![Design schema](images/Climate_data_schema.png)
+![Design schema](images/Climate_Dashboard.png)
 
 ## Deployment
 
