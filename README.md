@@ -9,6 +9,10 @@ A Streamlit dashboard showing historical ocean temperature data.
 3. Set up environment variables in `.streamlit/secrets.toml`
 4. Run: `streamlit run streamlit_app.py`
 
+## Design schema
+
+![Design schema](images/Climate_data_schema.png)
+
 ## Deployment
 
 This app is deployed using:

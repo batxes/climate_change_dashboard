@@ -1,6 +1,7 @@
-from db_operations import OceanDatabase
+from db_operations import ClimateDatabase
 
 
-db = OceanDatabase(type="prod")
+db = ClimateDatabase(type="local")
 
-db.drop_table()
+db.drop_global_temperature_table()
+#db.drop_ocean_temperature_table()

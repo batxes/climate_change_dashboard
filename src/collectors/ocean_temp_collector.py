@@ -1,4 +1,3 @@
-from src.database.db_operations import OceanDatabase
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
